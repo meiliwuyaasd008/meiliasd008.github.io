@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '柠檬味的柠檬_🇭🇰_HK_8', server: 118.107.244.112, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: '柠檬味的柠檬_🏳_9', server: 167.88.61.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: '+|12.40Mb_3', server: 167.88.61.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: '柠檬味的柠檬_🇺🇸_US_13', server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
@@ -109,7 +108,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 柠檬味的柠檬_🇭🇰_HK_8
       - 柠檬味的柠檬_🏳_9
       - +|12.40Mb_3
       - 柠檬味的柠檬_🇺🇸_US_13
