@@ -5,868 +5,620 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Pool_+|100.79Mb_1', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Pool_+|78.08Mb_2', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|21.90Mb_3', server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|19.78Mb_4', server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|23.14Mb_5', server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|23.36Mb_6', server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '+|14.88Mb_7', server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|23.97Mb_8', server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|26.52Mb_9', server: 38.114.114.67, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|19.15Mb_10', server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|23.07Mb_11', server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|21.00Mb_12', server: 134.195.196.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|20.55Mb_13', server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|17.91Mb_14', server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '+|12.97Mb_15', server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '+|21.07Mb_16', server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|12.95Mb_17', server: 142.202.48.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|12.31Mb_18', server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|13.86Mb_19', server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|14.56Mb_20', server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|19.94Mb_21', server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|11.76Mb_22', server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|12.39Mb_23', server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|20.96Mb_24', server: 134.195.196.12, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|+3.77Mb_25', server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|19.52Mb_26', server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|19.50Mb_27', server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|19.06Mb_28', server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|20.32Mb_29', server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '+|12.30Mb_30', server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|15.07Mb_31', server: 134.195.196.12, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '+|13.76Mb_32', server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|14.01Mb_33', server: 134.195.196.12, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|20.99Mb_34', server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|20.29Mb_35', server: 134.195.196.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|14.78Mb_36', server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|22.25Mb_37', server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|20.90Mb_38', server: 134.195.196.12, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|19.14Mb_39', server: 77.247.126.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|20.31Mb_40', server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|24.24Mb_41', server: 51.77.53.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|23.67Mb_42', server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|+5.61Mb_43', server: 38.68.134.202, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|12.23Mb_44', server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'Pool_+|20.39Mb_45', server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|18.70Mb_46', server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|20.92Mb_47', server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '+|17.76Mb_48', server: 142.202.48.58, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|15.45Mb_49', server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|11.43Mb_50', server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|11.89Mb_51', server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '+|11.91Mb_52', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|+7.02Mb_53', server: 196.196.156.122, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|14.93Mb_54', server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|20.98Mb_55', server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|10.78Mb_56', server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|14.95Mb_57', server: 134.195.196.12, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|21.37Mb_58', server: 38.68.134.190, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|20.38Mb_59', server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|20.64Mb_60', server: 198.57.27.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|20.55Mb_61', server: 141.95.0.23, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|20.02Mb_62', server: 141.95.0.23, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|20.26Mb_63', server: 141.95.0.23, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|21.26Mb_64', server: 141.95.0.23, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|20.22Mb_65', server: 141.95.0.23, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|21.47Mb_66', server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '+|11.86Mb_67', server: 193.108.118.2, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|+0.46Mb_68', server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🏁ZZ_1925+|+2.50Mb', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '+|19.30Mb_70', server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|20.50Mb_71', server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|+6.34Mb_72', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|+0.18Mb_73', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|+1.71Mb_74', server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|21.18Mb_75', server: 5.188.108.155, port: 890, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
-  - {name: '+|17.68Mb_76', server: 142.202.48.108, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '+|18.78Mb_77', server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|20.55Mb_78', server: 141.95.0.23, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|+7.10Mb_79', server: 38.107.226.48, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|13.31Mb_80', server: 198.57.27.184, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇩🇪DE_281+|+3.06Mb', server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|13.64Mb_82', server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|11.35Mb_83', server: 142.202.48.108, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|11.62Mb_84', server: 142.202.48.108, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|25.78Mb_85', server: 145.239.7.164, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|19.79Mb_86', server: 141.95.0.23, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|20.31Mb_87', server: 141.95.0.23, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|20.58Mb_88', server: 141.95.0.23, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '+|+3.45Mb_89', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|14.91Mb_90', server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|19.51Mb_91', server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '+|20.01Mb_92', server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇦CA_210+|14.88Mb', server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|19.41Mb_94', server: 198.57.27.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|21.24Mb_95', server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '+|12.21Mb_96', server: 142.202.48.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|12.75Mb_97', server: 198.57.27.184, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '+|22.44Mb_98', server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|18.92Mb_99', server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '+|16.06Mb_100', server: 172.105.251.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '+|10.50Mb_101', server: 142.202.48.108, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '+|+2.81Mb_102', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🏁ZZ_1914+|+5.30Mb', server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '+|17.91Mb_1', server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '+|12.95Mb_2', server: 142.202.48.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '+|11.76Mb_3', server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '+|12.30Mb_4', server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '+|12.31Mb_5', server: 142.202.48.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '+|19.94Mb_6', server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '+|19.06Mb_7', server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸US_1469+|18.63Mb', server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '+|13.86Mb_9', server: 142.202.48.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_849+|20.31Mb', server: 172.99.190.90, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '+|12.97Mb_11', server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '+|20.31Mb_12', server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_860+|21.20Mb', server: 172.99.190.90, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_895+|12.88Mb', server: 172.99.190.90, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_1594+|16.42Mb', server: 172.99.190.90, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '+|12.39Mb_16', server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸US_939+|16.25Mb', server: 172.99.190.90, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '+|20.55Mb_18', server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '+|20.90Mb_19', server: 134.195.196.12, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸US_866+|13.01Mb', server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_868+|20.03Mb', server: 172.99.190.90, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸US_1592+|11.96Mb', server: 172.99.190.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '+|14.56Mb_23', server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '+|19.51Mb_24', server: 167.88.61.130, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '+|14.95Mb_25', server: 134.195.196.12, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_1620+|19.48Mb', server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '+|19.30Mb_27', server: 134.195.196.12, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇧🇪BE_105+|10.13Mb', server: 193.9.114.34, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸US_1598+|16.18Mb', server: 172.99.190.90, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '+|19.50Mb_30', server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '+|20.32Mb_31', server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '+|20.99Mb_32', server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇧🇪BE_102+|19.29Mb', server: 193.9.114.34, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '+|13.76Mb_34', server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '+|11.89Mb_35', server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_935+|12.29Mb', server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '+|19.78Mb_37', server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '+|19.52Mb_38', server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '+|20.38Mb_39', server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '+|23.36Mb_40', server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '+|14.93Mb_41', server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸US_873+|11.99Mb', server: 172.99.190.90, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '+|18.70Mb_43', server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '+|10.78Mb_44', server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸US_1200+|26.88Mb', server: 38.75.136.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🏁ZZ_1677+|20.69Mb', server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '+|14.88Mb_47', server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '+|11.91Mb_48', server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '+|21.90Mb_49', server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '+|15.45Mb_50', server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '+|+3.77Mb_51', server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '+|23.07Mb_52', server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '+|11.43Mb_53', server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_1195+|21.41Mb', server: 38.68.134.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦CA_209+|+9.86Mb', server: 51.161.118.38, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '+|+0.18Mb_56', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦CA_142+|+9.69Mb', server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '+|23.14Mb_58', server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '+|+7.10Mb_59', server: 38.107.226.48, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇵🇱PL_577+|21.87Mb', server: 5.188.108.155, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
+  - {name: '+|21.07Mb_61', server: 134.195.196.12, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '+|21.37Mb_62', server: 38.68.134.190, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '+|20.50Mb_63', server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '+|21.18Mb_64', server: 5.188.108.155, port: 890, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
+  - {name: '+|12.75Mb_65', server: 198.57.27.184, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '+|17.68Mb_66', server: 142.202.48.108, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '+|19.41Mb_67', server: 198.57.27.184, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '+|12.21Mb_68', server: 142.202.48.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇨🇦CA_140+|12.16Mb', server: 51.161.118.38, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸US_1039+|18.14Mb', server: 142.202.48.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '+|18.78Mb_71', server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸US_1528+|13.80Mb', server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_+|100.79Mb_1
-      - Pool_+|78.08Mb_2
-      - +|21.90Mb_3
-      - +|19.78Mb_4
-      - +|23.14Mb_5
-      - +|23.36Mb_6
-      - +|14.88Mb_7
-      - +|23.97Mb_8
-      - +|26.52Mb_9
-      - +|19.15Mb_10
-      - +|23.07Mb_11
-      - +|21.00Mb_12
-      - +|20.55Mb_13
-      - +|17.91Mb_14
-      - +|12.97Mb_15
-      - +|21.07Mb_16
-      - +|12.95Mb_17
-      - +|12.31Mb_18
-      - +|13.86Mb_19
-      - +|14.56Mb_20
-      - +|19.94Mb_21
-      - +|11.76Mb_22
-      - +|12.39Mb_23
-      - +|20.96Mb_24
-      - +|+3.77Mb_25
-      - +|19.52Mb_26
-      - +|19.50Mb_27
-      - +|19.06Mb_28
-      - +|20.32Mb_29
-      - +|12.30Mb_30
-      - +|15.07Mb_31
-      - +|13.76Mb_32
-      - +|14.01Mb_33
-      - +|20.99Mb_34
-      - +|20.29Mb_35
-      - +|14.78Mb_36
-      - +|22.25Mb_37
-      - +|20.90Mb_38
-      - +|19.14Mb_39
-      - +|20.31Mb_40
-      - +|24.24Mb_41
-      - +|23.67Mb_42
-      - +|+5.61Mb_43
-      - +|12.23Mb_44
-      - Pool_+|20.39Mb_45
-      - +|18.70Mb_46
-      - +|20.92Mb_47
-      - +|17.76Mb_48
-      - +|15.45Mb_49
-      - +|11.43Mb_50
-      - +|11.89Mb_51
-      - +|11.91Mb_52
-      - +|+7.02Mb_53
-      - +|14.93Mb_54
-      - +|20.98Mb_55
-      - +|10.78Mb_56
-      - +|14.95Mb_57
-      - +|21.37Mb_58
-      - +|20.38Mb_59
-      - +|20.64Mb_60
-      - +|20.55Mb_61
-      - +|20.02Mb_62
-      - +|20.26Mb_63
-      - +|21.26Mb_64
-      - +|20.22Mb_65
-      - +|21.47Mb_66
-      - +|11.86Mb_67
-      - +|+0.46Mb_68
-      - 🏁ZZ_1925+|+2.50Mb
-      - +|19.30Mb_70
-      - +|20.50Mb_71
-      - +|+6.34Mb_72
-      - +|+0.18Mb_73
-      - +|+1.71Mb_74
-      - +|21.18Mb_75
-      - +|17.68Mb_76
-      - +|18.78Mb_77
-      - +|20.55Mb_78
-      - +|+7.10Mb_79
-      - +|13.31Mb_80
-      - 🇩🇪DE_281+|+3.06Mb
-      - +|13.64Mb_82
-      - +|11.35Mb_83
-      - +|11.62Mb_84
-      - +|25.78Mb_85
-      - +|19.79Mb_86
-      - +|20.31Mb_87
-      - +|20.58Mb_88
-      - +|+3.45Mb_89
-      - +|14.91Mb_90
-      - +|19.51Mb_91
-      - +|20.01Mb_92
-      - 🇨🇦CA_210+|14.88Mb
-      - +|19.41Mb_94
-      - +|21.24Mb_95
-      - +|12.21Mb_96
-      - +|12.75Mb_97
-      - +|22.44Mb_98
-      - +|18.92Mb_99
-      - +|16.06Mb_100
-      - +|10.50Mb_101
-      - +|+2.81Mb_102
-      - 🏁ZZ_1914+|+5.30Mb
+      - +|17.91Mb_1
+      - +|12.95Mb_2
+      - +|11.76Mb_3
+      - +|12.30Mb_4
+      - +|12.31Mb_5
+      - +|19.94Mb_6
+      - +|19.06Mb_7
+      - 🇺🇸US_1469+|18.63Mb
+      - +|13.86Mb_9
+      - 🇺🇸US_849+|20.31Mb
+      - +|12.97Mb_11
+      - +|20.31Mb_12
+      - 🇺🇸US_860+|21.20Mb
+      - 🇺🇸US_895+|12.88Mb
+      - 🇺🇸US_1594+|16.42Mb
+      - +|12.39Mb_16
+      - 🇺🇸US_939+|16.25Mb
+      - +|20.55Mb_18
+      - +|20.90Mb_19
+      - 🇺🇸US_866+|13.01Mb
+      - 🇺🇸US_868+|20.03Mb
+      - 🇺🇸US_1592+|11.96Mb
+      - +|14.56Mb_23
+      - +|19.51Mb_24
+      - +|14.95Mb_25
+      - 🇺🇸US_1620+|19.48Mb
+      - +|19.30Mb_27
+      - 🇧🇪BE_105+|10.13Mb
+      - 🇺🇸US_1598+|16.18Mb
+      - +|19.50Mb_30
+      - +|20.32Mb_31
+      - +|20.99Mb_32
+      - 🇧🇪BE_102+|19.29Mb
+      - +|13.76Mb_34
+      - +|11.89Mb_35
+      - 🇺🇸US_935+|12.29Mb
+      - +|19.78Mb_37
+      - +|19.52Mb_38
+      - +|20.38Mb_39
+      - +|23.36Mb_40
+      - +|14.93Mb_41
+      - 🇺🇸US_873+|11.99Mb
+      - +|18.70Mb_43
+      - +|10.78Mb_44
+      - 🇺🇸US_1200+|26.88Mb
+      - 🏁ZZ_1677+|20.69Mb
+      - +|14.88Mb_47
+      - +|11.91Mb_48
+      - +|21.90Mb_49
+      - +|15.45Mb_50
+      - +|+3.77Mb_51
+      - +|23.07Mb_52
+      - +|11.43Mb_53
+      - 🇺🇸US_1195+|21.41Mb
+      - 🇨🇦CA_209+|+9.86Mb
+      - +|+0.18Mb_56
+      - 🇨🇦CA_142+|+9.69Mb
+      - +|23.14Mb_58
+      - +|+7.10Mb_59
+      - 🇵🇱PL_577+|21.87Mb
+      - +|21.07Mb_61
+      - +|21.37Mb_62
+      - +|20.50Mb_63
+      - +|21.18Mb_64
+      - +|12.75Mb_65
+      - +|17.68Mb_66
+      - +|19.41Mb_67
+      - +|12.21Mb_68
+      - 🇨🇦CA_140+|12.16Mb
+      - 🇺🇸US_1039+|18.14Mb
+      - +|18.78Mb_71
+      - 🇺🇸US_1528+|13.80Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Pool_+|100.79Mb_1
-      - Pool_+|78.08Mb_2
-      - +|21.90Mb_3
-      - +|19.78Mb_4
-      - +|23.14Mb_5
-      - +|23.36Mb_6
-      - +|14.88Mb_7
-      - +|23.97Mb_8
-      - +|26.52Mb_9
-      - +|19.15Mb_10
-      - +|23.07Mb_11
-      - +|21.00Mb_12
-      - +|20.55Mb_13
-      - +|17.91Mb_14
-      - +|12.97Mb_15
-      - +|21.07Mb_16
-      - +|12.95Mb_17
-      - +|12.31Mb_18
-      - +|13.86Mb_19
-      - +|14.56Mb_20
-      - +|19.94Mb_21
-      - +|11.76Mb_22
-      - +|12.39Mb_23
-      - +|20.96Mb_24
-      - +|+3.77Mb_25
-      - +|19.52Mb_26
-      - +|19.50Mb_27
-      - +|19.06Mb_28
-      - +|20.32Mb_29
-      - +|12.30Mb_30
-      - +|15.07Mb_31
-      - +|13.76Mb_32
-      - +|14.01Mb_33
-      - +|20.99Mb_34
-      - +|20.29Mb_35
-      - +|14.78Mb_36
-      - +|22.25Mb_37
-      - +|20.90Mb_38
-      - +|19.14Mb_39
-      - +|20.31Mb_40
-      - +|24.24Mb_41
-      - +|23.67Mb_42
-      - +|+5.61Mb_43
-      - +|12.23Mb_44
-      - Pool_+|20.39Mb_45
-      - +|18.70Mb_46
-      - +|20.92Mb_47
-      - +|17.76Mb_48
-      - +|15.45Mb_49
-      - +|11.43Mb_50
-      - +|11.89Mb_51
-      - +|11.91Mb_52
-      - +|+7.02Mb_53
-      - +|14.93Mb_54
-      - +|20.98Mb_55
-      - +|10.78Mb_56
-      - +|14.95Mb_57
-      - +|21.37Mb_58
-      - +|20.38Mb_59
-      - +|20.64Mb_60
-      - +|20.55Mb_61
-      - +|20.02Mb_62
-      - +|20.26Mb_63
-      - +|21.26Mb_64
-      - +|20.22Mb_65
-      - +|21.47Mb_66
-      - +|11.86Mb_67
-      - +|+0.46Mb_68
-      - 🏁ZZ_1925+|+2.50Mb
-      - +|19.30Mb_70
-      - +|20.50Mb_71
-      - +|+6.34Mb_72
-      - +|+0.18Mb_73
-      - +|+1.71Mb_74
-      - +|21.18Mb_75
-      - +|17.68Mb_76
-      - +|18.78Mb_77
-      - +|20.55Mb_78
-      - +|+7.10Mb_79
-      - +|13.31Mb_80
-      - 🇩🇪DE_281+|+3.06Mb
-      - +|13.64Mb_82
-      - +|11.35Mb_83
-      - +|11.62Mb_84
-      - +|25.78Mb_85
-      - +|19.79Mb_86
-      - +|20.31Mb_87
-      - +|20.58Mb_88
-      - +|+3.45Mb_89
-      - +|14.91Mb_90
-      - +|19.51Mb_91
-      - +|20.01Mb_92
-      - 🇨🇦CA_210+|14.88Mb
-      - +|19.41Mb_94
-      - +|21.24Mb_95
-      - +|12.21Mb_96
-      - +|12.75Mb_97
-      - +|22.44Mb_98
-      - +|18.92Mb_99
-      - +|16.06Mb_100
-      - +|10.50Mb_101
-      - +|+2.81Mb_102
-      - 🏁ZZ_1914+|+5.30Mb
+      - +|17.91Mb_1
+      - +|12.95Mb_2
+      - +|11.76Mb_3
+      - +|12.30Mb_4
+      - +|12.31Mb_5
+      - +|19.94Mb_6
+      - +|19.06Mb_7
+      - 🇺🇸US_1469+|18.63Mb
+      - +|13.86Mb_9
+      - 🇺🇸US_849+|20.31Mb
+      - +|12.97Mb_11
+      - +|20.31Mb_12
+      - 🇺🇸US_860+|21.20Mb
+      - 🇺🇸US_895+|12.88Mb
+      - 🇺🇸US_1594+|16.42Mb
+      - +|12.39Mb_16
+      - 🇺🇸US_939+|16.25Mb
+      - +|20.55Mb_18
+      - +|20.90Mb_19
+      - 🇺🇸US_866+|13.01Mb
+      - 🇺🇸US_868+|20.03Mb
+      - 🇺🇸US_1592+|11.96Mb
+      - +|14.56Mb_23
+      - +|19.51Mb_24
+      - +|14.95Mb_25
+      - 🇺🇸US_1620+|19.48Mb
+      - +|19.30Mb_27
+      - 🇧🇪BE_105+|10.13Mb
+      - 🇺🇸US_1598+|16.18Mb
+      - +|19.50Mb_30
+      - +|20.32Mb_31
+      - +|20.99Mb_32
+      - 🇧🇪BE_102+|19.29Mb
+      - +|13.76Mb_34
+      - +|11.89Mb_35
+      - 🇺🇸US_935+|12.29Mb
+      - +|19.78Mb_37
+      - +|19.52Mb_38
+      - +|20.38Mb_39
+      - +|23.36Mb_40
+      - +|14.93Mb_41
+      - 🇺🇸US_873+|11.99Mb
+      - +|18.70Mb_43
+      - +|10.78Mb_44
+      - 🇺🇸US_1200+|26.88Mb
+      - 🏁ZZ_1677+|20.69Mb
+      - +|14.88Mb_47
+      - +|11.91Mb_48
+      - +|21.90Mb_49
+      - +|15.45Mb_50
+      - +|+3.77Mb_51
+      - +|23.07Mb_52
+      - +|11.43Mb_53
+      - 🇺🇸US_1195+|21.41Mb
+      - 🇨🇦CA_209+|+9.86Mb
+      - +|+0.18Mb_56
+      - 🇨🇦CA_142+|+9.69Mb
+      - +|23.14Mb_58
+      - +|+7.10Mb_59
+      - 🇵🇱PL_577+|21.87Mb
+      - +|21.07Mb_61
+      - +|21.37Mb_62
+      - +|20.50Mb_63
+      - +|21.18Mb_64
+      - +|12.75Mb_65
+      - +|17.68Mb_66
+      - +|19.41Mb_67
+      - +|12.21Mb_68
+      - 🇨🇦CA_140+|12.16Mb
+      - 🇺🇸US_1039+|18.14Mb
+      - +|18.78Mb_71
+      - 🇺🇸US_1528+|13.80Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_+|100.79Mb_1
-      - Pool_+|78.08Mb_2
-      - +|21.90Mb_3
-      - +|19.78Mb_4
-      - +|23.14Mb_5
-      - +|23.36Mb_6
-      - +|14.88Mb_7
-      - +|23.97Mb_8
-      - +|26.52Mb_9
-      - +|19.15Mb_10
-      - +|23.07Mb_11
-      - +|21.00Mb_12
-      - +|20.55Mb_13
-      - +|17.91Mb_14
-      - +|12.97Mb_15
-      - +|21.07Mb_16
-      - +|12.95Mb_17
-      - +|12.31Mb_18
-      - +|13.86Mb_19
-      - +|14.56Mb_20
-      - +|19.94Mb_21
-      - +|11.76Mb_22
-      - +|12.39Mb_23
-      - +|20.96Mb_24
-      - +|+3.77Mb_25
-      - +|19.52Mb_26
-      - +|19.50Mb_27
-      - +|19.06Mb_28
-      - +|20.32Mb_29
-      - +|12.30Mb_30
-      - +|15.07Mb_31
-      - +|13.76Mb_32
-      - +|14.01Mb_33
-      - +|20.99Mb_34
-      - +|20.29Mb_35
-      - +|14.78Mb_36
-      - +|22.25Mb_37
-      - +|20.90Mb_38
-      - +|19.14Mb_39
-      - +|20.31Mb_40
-      - +|24.24Mb_41
-      - +|23.67Mb_42
-      - +|+5.61Mb_43
-      - +|12.23Mb_44
-      - Pool_+|20.39Mb_45
-      - +|18.70Mb_46
-      - +|20.92Mb_47
-      - +|17.76Mb_48
-      - +|15.45Mb_49
-      - +|11.43Mb_50
-      - +|11.89Mb_51
-      - +|11.91Mb_52
-      - +|+7.02Mb_53
-      - +|14.93Mb_54
-      - +|20.98Mb_55
-      - +|10.78Mb_56
-      - +|14.95Mb_57
-      - +|21.37Mb_58
-      - +|20.38Mb_59
-      - +|20.64Mb_60
-      - +|20.55Mb_61
-      - +|20.02Mb_62
-      - +|20.26Mb_63
-      - +|21.26Mb_64
-      - +|20.22Mb_65
-      - +|21.47Mb_66
-      - +|11.86Mb_67
-      - +|+0.46Mb_68
-      - 🏁ZZ_1925+|+2.50Mb
-      - +|19.30Mb_70
-      - +|20.50Mb_71
-      - +|+6.34Mb_72
-      - +|+0.18Mb_73
-      - +|+1.71Mb_74
-      - +|21.18Mb_75
-      - +|17.68Mb_76
-      - +|18.78Mb_77
-      - +|20.55Mb_78
-      - +|+7.10Mb_79
-      - +|13.31Mb_80
-      - 🇩🇪DE_281+|+3.06Mb
-      - +|13.64Mb_82
-      - +|11.35Mb_83
-      - +|11.62Mb_84
-      - +|25.78Mb_85
-      - +|19.79Mb_86
-      - +|20.31Mb_87
-      - +|20.58Mb_88
-      - +|+3.45Mb_89
-      - +|14.91Mb_90
-      - +|19.51Mb_91
-      - +|20.01Mb_92
-      - 🇨🇦CA_210+|14.88Mb
-      - +|19.41Mb_94
-      - +|21.24Mb_95
-      - +|12.21Mb_96
-      - +|12.75Mb_97
-      - +|22.44Mb_98
-      - +|18.92Mb_99
-      - +|16.06Mb_100
-      - +|10.50Mb_101
-      - +|+2.81Mb_102
-      - 🏁ZZ_1914+|+5.30Mb
+      - +|17.91Mb_1
+      - +|12.95Mb_2
+      - +|11.76Mb_3
+      - +|12.30Mb_4
+      - +|12.31Mb_5
+      - +|19.94Mb_6
+      - +|19.06Mb_7
+      - 🇺🇸US_1469+|18.63Mb
+      - +|13.86Mb_9
+      - 🇺🇸US_849+|20.31Mb
+      - +|12.97Mb_11
+      - +|20.31Mb_12
+      - 🇺🇸US_860+|21.20Mb
+      - 🇺🇸US_895+|12.88Mb
+      - 🇺🇸US_1594+|16.42Mb
+      - +|12.39Mb_16
+      - 🇺🇸US_939+|16.25Mb
+      - +|20.55Mb_18
+      - +|20.90Mb_19
+      - 🇺🇸US_866+|13.01Mb
+      - 🇺🇸US_868+|20.03Mb
+      - 🇺🇸US_1592+|11.96Mb
+      - +|14.56Mb_23
+      - +|19.51Mb_24
+      - +|14.95Mb_25
+      - 🇺🇸US_1620+|19.48Mb
+      - +|19.30Mb_27
+      - 🇧🇪BE_105+|10.13Mb
+      - 🇺🇸US_1598+|16.18Mb
+      - +|19.50Mb_30
+      - +|20.32Mb_31
+      - +|20.99Mb_32
+      - 🇧🇪BE_102+|19.29Mb
+      - +|13.76Mb_34
+      - +|11.89Mb_35
+      - 🇺🇸US_935+|12.29Mb
+      - +|19.78Mb_37
+      - +|19.52Mb_38
+      - +|20.38Mb_39
+      - +|23.36Mb_40
+      - +|14.93Mb_41
+      - 🇺🇸US_873+|11.99Mb
+      - +|18.70Mb_43
+      - +|10.78Mb_44
+      - 🇺🇸US_1200+|26.88Mb
+      - 🏁ZZ_1677+|20.69Mb
+      - +|14.88Mb_47
+      - +|11.91Mb_48
+      - +|21.90Mb_49
+      - +|15.45Mb_50
+      - +|+3.77Mb_51
+      - +|23.07Mb_52
+      - +|11.43Mb_53
+      - 🇺🇸US_1195+|21.41Mb
+      - 🇨🇦CA_209+|+9.86Mb
+      - +|+0.18Mb_56
+      - 🇨🇦CA_142+|+9.69Mb
+      - +|23.14Mb_58
+      - +|+7.10Mb_59
+      - 🇵🇱PL_577+|21.87Mb
+      - +|21.07Mb_61
+      - +|21.37Mb_62
+      - +|20.50Mb_63
+      - +|21.18Mb_64
+      - +|12.75Mb_65
+      - +|17.68Mb_66
+      - +|19.41Mb_67
+      - +|12.21Mb_68
+      - 🇨🇦CA_140+|12.16Mb
+      - 🇺🇸US_1039+|18.14Mb
+      - +|18.78Mb_71
+      - 🇺🇸US_1528+|13.80Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Pool_+|100.79Mb_1
-      - Pool_+|78.08Mb_2
-      - +|21.90Mb_3
-      - +|19.78Mb_4
-      - +|23.14Mb_5
-      - +|23.36Mb_6
-      - +|14.88Mb_7
-      - +|23.97Mb_8
-      - +|26.52Mb_9
-      - +|19.15Mb_10
-      - +|23.07Mb_11
-      - +|21.00Mb_12
-      - +|20.55Mb_13
-      - +|17.91Mb_14
-      - +|12.97Mb_15
-      - +|21.07Mb_16
-      - +|12.95Mb_17
-      - +|12.31Mb_18
-      - +|13.86Mb_19
-      - +|14.56Mb_20
-      - +|19.94Mb_21
-      - +|11.76Mb_22
-      - +|12.39Mb_23
-      - +|20.96Mb_24
-      - +|+3.77Mb_25
-      - +|19.52Mb_26
-      - +|19.50Mb_27
-      - +|19.06Mb_28
-      - +|20.32Mb_29
-      - +|12.30Mb_30
-      - +|15.07Mb_31
-      - +|13.76Mb_32
-      - +|14.01Mb_33
-      - +|20.99Mb_34
-      - +|20.29Mb_35
-      - +|14.78Mb_36
-      - +|22.25Mb_37
-      - +|20.90Mb_38
-      - +|19.14Mb_39
-      - +|20.31Mb_40
-      - +|24.24Mb_41
-      - +|23.67Mb_42
-      - +|+5.61Mb_43
-      - +|12.23Mb_44
-      - Pool_+|20.39Mb_45
-      - +|18.70Mb_46
-      - +|20.92Mb_47
-      - +|17.76Mb_48
-      - +|15.45Mb_49
-      - +|11.43Mb_50
-      - +|11.89Mb_51
-      - +|11.91Mb_52
-      - +|+7.02Mb_53
-      - +|14.93Mb_54
-      - +|20.98Mb_55
-      - +|10.78Mb_56
-      - +|14.95Mb_57
-      - +|21.37Mb_58
-      - +|20.38Mb_59
-      - +|20.64Mb_60
-      - +|20.55Mb_61
-      - +|20.02Mb_62
-      - +|20.26Mb_63
-      - +|21.26Mb_64
-      - +|20.22Mb_65
-      - +|21.47Mb_66
-      - +|11.86Mb_67
-      - +|+0.46Mb_68
-      - 🏁ZZ_1925+|+2.50Mb
-      - +|19.30Mb_70
-      - +|20.50Mb_71
-      - +|+6.34Mb_72
-      - +|+0.18Mb_73
-      - +|+1.71Mb_74
-      - +|21.18Mb_75
-      - +|17.68Mb_76
-      - +|18.78Mb_77
-      - +|20.55Mb_78
-      - +|+7.10Mb_79
-      - +|13.31Mb_80
-      - 🇩🇪DE_281+|+3.06Mb
-      - +|13.64Mb_82
-      - +|11.35Mb_83
-      - +|11.62Mb_84
-      - +|25.78Mb_85
-      - +|19.79Mb_86
-      - +|20.31Mb_87
-      - +|20.58Mb_88
-      - +|+3.45Mb_89
-      - +|14.91Mb_90
-      - +|19.51Mb_91
-      - +|20.01Mb_92
-      - 🇨🇦CA_210+|14.88Mb
-      - +|19.41Mb_94
-      - +|21.24Mb_95
-      - +|12.21Mb_96
-      - +|12.75Mb_97
-      - +|22.44Mb_98
-      - +|18.92Mb_99
-      - +|16.06Mb_100
-      - +|10.50Mb_101
-      - +|+2.81Mb_102
-      - 🏁ZZ_1914+|+5.30Mb
+      - +|17.91Mb_1
+      - +|12.95Mb_2
+      - +|11.76Mb_3
+      - +|12.30Mb_4
+      - +|12.31Mb_5
+      - +|19.94Mb_6
+      - +|19.06Mb_7
+      - 🇺🇸US_1469+|18.63Mb
+      - +|13.86Mb_9
+      - 🇺🇸US_849+|20.31Mb
+      - +|12.97Mb_11
+      - +|20.31Mb_12
+      - 🇺🇸US_860+|21.20Mb
+      - 🇺🇸US_895+|12.88Mb
+      - 🇺🇸US_1594+|16.42Mb
+      - +|12.39Mb_16
+      - 🇺🇸US_939+|16.25Mb
+      - +|20.55Mb_18
+      - +|20.90Mb_19
+      - 🇺🇸US_866+|13.01Mb
+      - 🇺🇸US_868+|20.03Mb
+      - 🇺🇸US_1592+|11.96Mb
+      - +|14.56Mb_23
+      - +|19.51Mb_24
+      - +|14.95Mb_25
+      - 🇺🇸US_1620+|19.48Mb
+      - +|19.30Mb_27
+      - 🇧🇪BE_105+|10.13Mb
+      - 🇺🇸US_1598+|16.18Mb
+      - +|19.50Mb_30
+      - +|20.32Mb_31
+      - +|20.99Mb_32
+      - 🇧🇪BE_102+|19.29Mb
+      - +|13.76Mb_34
+      - +|11.89Mb_35
+      - 🇺🇸US_935+|12.29Mb
+      - +|19.78Mb_37
+      - +|19.52Mb_38
+      - +|20.38Mb_39
+      - +|23.36Mb_40
+      - +|14.93Mb_41
+      - 🇺🇸US_873+|11.99Mb
+      - +|18.70Mb_43
+      - +|10.78Mb_44
+      - 🇺🇸US_1200+|26.88Mb
+      - 🏁ZZ_1677+|20.69Mb
+      - +|14.88Mb_47
+      - +|11.91Mb_48
+      - +|21.90Mb_49
+      - +|15.45Mb_50
+      - +|+3.77Mb_51
+      - +|23.07Mb_52
+      - +|11.43Mb_53
+      - 🇺🇸US_1195+|21.41Mb
+      - 🇨🇦CA_209+|+9.86Mb
+      - +|+0.18Mb_56
+      - 🇨🇦CA_142+|+9.69Mb
+      - +|23.14Mb_58
+      - +|+7.10Mb_59
+      - 🇵🇱PL_577+|21.87Mb
+      - +|21.07Mb_61
+      - +|21.37Mb_62
+      - +|20.50Mb_63
+      - +|21.18Mb_64
+      - +|12.75Mb_65
+      - +|17.68Mb_66
+      - +|19.41Mb_67
+      - +|12.21Mb_68
+      - 🇨🇦CA_140+|12.16Mb
+      - 🇺🇸US_1039+|18.14Mb
+      - +|18.78Mb_71
+      - 🇺🇸US_1528+|13.80Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Pool_+|100.79Mb_1
-      - Pool_+|78.08Mb_2
-      - +|21.90Mb_3
-      - +|19.78Mb_4
-      - +|23.14Mb_5
-      - +|23.36Mb_6
-      - +|14.88Mb_7
-      - +|23.97Mb_8
-      - +|26.52Mb_9
-      - +|19.15Mb_10
-      - +|23.07Mb_11
-      - +|21.00Mb_12
-      - +|20.55Mb_13
-      - +|17.91Mb_14
-      - +|12.97Mb_15
-      - +|21.07Mb_16
-      - +|12.95Mb_17
-      - +|12.31Mb_18
-      - +|13.86Mb_19
-      - +|14.56Mb_20
-      - +|19.94Mb_21
-      - +|11.76Mb_22
-      - +|12.39Mb_23
-      - +|20.96Mb_24
-      - +|+3.77Mb_25
-      - +|19.52Mb_26
-      - +|19.50Mb_27
-      - +|19.06Mb_28
-      - +|20.32Mb_29
-      - +|12.30Mb_30
-      - +|15.07Mb_31
-      - +|13.76Mb_32
-      - +|14.01Mb_33
-      - +|20.99Mb_34
-      - +|20.29Mb_35
-      - +|14.78Mb_36
-      - +|22.25Mb_37
-      - +|20.90Mb_38
-      - +|19.14Mb_39
-      - +|20.31Mb_40
-      - +|24.24Mb_41
-      - +|23.67Mb_42
-      - +|+5.61Mb_43
-      - +|12.23Mb_44
-      - Pool_+|20.39Mb_45
-      - +|18.70Mb_46
-      - +|20.92Mb_47
-      - +|17.76Mb_48
-      - +|15.45Mb_49
-      - +|11.43Mb_50
-      - +|11.89Mb_51
-      - +|11.91Mb_52
-      - +|+7.02Mb_53
-      - +|14.93Mb_54
-      - +|20.98Mb_55
-      - +|10.78Mb_56
-      - +|14.95Mb_57
-      - +|21.37Mb_58
-      - +|20.38Mb_59
-      - +|20.64Mb_60
-      - +|20.55Mb_61
-      - +|20.02Mb_62
-      - +|20.26Mb_63
-      - +|21.26Mb_64
-      - +|20.22Mb_65
-      - +|21.47Mb_66
-      - +|11.86Mb_67
-      - +|+0.46Mb_68
-      - 🏁ZZ_1925+|+2.50Mb
-      - +|19.30Mb_70
-      - +|20.50Mb_71
-      - +|+6.34Mb_72
-      - +|+0.18Mb_73
-      - +|+1.71Mb_74
-      - +|21.18Mb_75
-      - +|17.68Mb_76
-      - +|18.78Mb_77
-      - +|20.55Mb_78
-      - +|+7.10Mb_79
-      - +|13.31Mb_80
-      - 🇩🇪DE_281+|+3.06Mb
-      - +|13.64Mb_82
-      - +|11.35Mb_83
-      - +|11.62Mb_84
-      - +|25.78Mb_85
-      - +|19.79Mb_86
-      - +|20.31Mb_87
-      - +|20.58Mb_88
-      - +|+3.45Mb_89
-      - +|14.91Mb_90
-      - +|19.51Mb_91
-      - +|20.01Mb_92
-      - 🇨🇦CA_210+|14.88Mb
-      - +|19.41Mb_94
-      - +|21.24Mb_95
-      - +|12.21Mb_96
-      - +|12.75Mb_97
-      - +|22.44Mb_98
-      - +|18.92Mb_99
-      - +|16.06Mb_100
-      - +|10.50Mb_101
-      - +|+2.81Mb_102
-      - 🏁ZZ_1914+|+5.30Mb
+      - +|17.91Mb_1
+      - +|12.95Mb_2
+      - +|11.76Mb_3
+      - +|12.30Mb_4
+      - +|12.31Mb_5
+      - +|19.94Mb_6
+      - +|19.06Mb_7
+      - 🇺🇸US_1469+|18.63Mb
+      - +|13.86Mb_9
+      - 🇺🇸US_849+|20.31Mb
+      - +|12.97Mb_11
+      - +|20.31Mb_12
+      - 🇺🇸US_860+|21.20Mb
+      - 🇺🇸US_895+|12.88Mb
+      - 🇺🇸US_1594+|16.42Mb
+      - +|12.39Mb_16
+      - 🇺🇸US_939+|16.25Mb
+      - +|20.55Mb_18
+      - +|20.90Mb_19
+      - 🇺🇸US_866+|13.01Mb
+      - 🇺🇸US_868+|20.03Mb
+      - 🇺🇸US_1592+|11.96Mb
+      - +|14.56Mb_23
+      - +|19.51Mb_24
+      - +|14.95Mb_25
+      - 🇺🇸US_1620+|19.48Mb
+      - +|19.30Mb_27
+      - 🇧🇪BE_105+|10.13Mb
+      - 🇺🇸US_1598+|16.18Mb
+      - +|19.50Mb_30
+      - +|20.32Mb_31
+      - +|20.99Mb_32
+      - 🇧🇪BE_102+|19.29Mb
+      - +|13.76Mb_34
+      - +|11.89Mb_35
+      - 🇺🇸US_935+|12.29Mb
+      - +|19.78Mb_37
+      - +|19.52Mb_38
+      - +|20.38Mb_39
+      - +|23.36Mb_40
+      - +|14.93Mb_41
+      - 🇺🇸US_873+|11.99Mb
+      - +|18.70Mb_43
+      - +|10.78Mb_44
+      - 🇺🇸US_1200+|26.88Mb
+      - 🏁ZZ_1677+|20.69Mb
+      - +|14.88Mb_47
+      - +|11.91Mb_48
+      - +|21.90Mb_49
+      - +|15.45Mb_50
+      - +|+3.77Mb_51
+      - +|23.07Mb_52
+      - +|11.43Mb_53
+      - 🇺🇸US_1195+|21.41Mb
+      - 🇨🇦CA_209+|+9.86Mb
+      - +|+0.18Mb_56
+      - 🇨🇦CA_142+|+9.69Mb
+      - +|23.14Mb_58
+      - +|+7.10Mb_59
+      - 🇵🇱PL_577+|21.87Mb
+      - +|21.07Mb_61
+      - +|21.37Mb_62
+      - +|20.50Mb_63
+      - +|21.18Mb_64
+      - +|12.75Mb_65
+      - +|17.68Mb_66
+      - +|19.41Mb_67
+      - +|12.21Mb_68
+      - 🇨🇦CA_140+|12.16Mb
+      - 🇺🇸US_1039+|18.14Mb
+      - +|18.78Mb_71
+      - 🇺🇸US_1528+|13.80Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Pool_+|100.79Mb_1
-      - Pool_+|78.08Mb_2
-      - +|21.90Mb_3
-      - +|19.78Mb_4
-      - +|23.14Mb_5
-      - +|23.36Mb_6
-      - +|14.88Mb_7
-      - +|23.97Mb_8
-      - +|26.52Mb_9
-      - +|19.15Mb_10
-      - +|23.07Mb_11
-      - +|21.00Mb_12
-      - +|20.55Mb_13
-      - +|17.91Mb_14
-      - +|12.97Mb_15
-      - +|21.07Mb_16
-      - +|12.95Mb_17
-      - +|12.31Mb_18
-      - +|13.86Mb_19
-      - +|14.56Mb_20
-      - +|19.94Mb_21
-      - +|11.76Mb_22
-      - +|12.39Mb_23
-      - +|20.96Mb_24
-      - +|+3.77Mb_25
-      - +|19.52Mb_26
-      - +|19.50Mb_27
-      - +|19.06Mb_28
-      - +|20.32Mb_29
-      - +|12.30Mb_30
-      - +|15.07Mb_31
-      - +|13.76Mb_32
-      - +|14.01Mb_33
-      - +|20.99Mb_34
-      - +|20.29Mb_35
-      - +|14.78Mb_36
-      - +|22.25Mb_37
-      - +|20.90Mb_38
-      - +|19.14Mb_39
-      - +|20.31Mb_40
-      - +|24.24Mb_41
-      - +|23.67Mb_42
-      - +|+5.61Mb_43
-      - +|12.23Mb_44
-      - Pool_+|20.39Mb_45
-      - +|18.70Mb_46
-      - +|20.92Mb_47
-      - +|17.76Mb_48
-      - +|15.45Mb_49
-      - +|11.43Mb_50
-      - +|11.89Mb_51
-      - +|11.91Mb_52
-      - +|+7.02Mb_53
-      - +|14.93Mb_54
-      - +|20.98Mb_55
-      - +|10.78Mb_56
-      - +|14.95Mb_57
-      - +|21.37Mb_58
-      - +|20.38Mb_59
-      - +|20.64Mb_60
-      - +|20.55Mb_61
-      - +|20.02Mb_62
-      - +|20.26Mb_63
-      - +|21.26Mb_64
-      - +|20.22Mb_65
-      - +|21.47Mb_66
-      - +|11.86Mb_67
-      - +|+0.46Mb_68
-      - 🏁ZZ_1925+|+2.50Mb
-      - +|19.30Mb_70
-      - +|20.50Mb_71
-      - +|+6.34Mb_72
-      - +|+0.18Mb_73
-      - +|+1.71Mb_74
-      - +|21.18Mb_75
-      - +|17.68Mb_76
-      - +|18.78Mb_77
-      - +|20.55Mb_78
-      - +|+7.10Mb_79
-      - +|13.31Mb_80
-      - 🇩🇪DE_281+|+3.06Mb
-      - +|13.64Mb_82
-      - +|11.35Mb_83
-      - +|11.62Mb_84
-      - +|25.78Mb_85
-      - +|19.79Mb_86
-      - +|20.31Mb_87
-      - +|20.58Mb_88
-      - +|+3.45Mb_89
-      - +|14.91Mb_90
-      - +|19.51Mb_91
-      - +|20.01Mb_92
-      - 🇨🇦CA_210+|14.88Mb
-      - +|19.41Mb_94
-      - +|21.24Mb_95
-      - +|12.21Mb_96
-      - +|12.75Mb_97
-      - +|22.44Mb_98
-      - +|18.92Mb_99
-      - +|16.06Mb_100
-      - +|10.50Mb_101
-      - +|+2.81Mb_102
-      - 🏁ZZ_1914+|+5.30Mb
+      - +|17.91Mb_1
+      - +|12.95Mb_2
+      - +|11.76Mb_3
+      - +|12.30Mb_4
+      - +|12.31Mb_5
+      - +|19.94Mb_6
+      - +|19.06Mb_7
+      - 🇺🇸US_1469+|18.63Mb
+      - +|13.86Mb_9
+      - 🇺🇸US_849+|20.31Mb
+      - +|12.97Mb_11
+      - +|20.31Mb_12
+      - 🇺🇸US_860+|21.20Mb
+      - 🇺🇸US_895+|12.88Mb
+      - 🇺🇸US_1594+|16.42Mb
+      - +|12.39Mb_16
+      - 🇺🇸US_939+|16.25Mb
+      - +|20.55Mb_18
+      - +|20.90Mb_19
+      - 🇺🇸US_866+|13.01Mb
+      - 🇺🇸US_868+|20.03Mb
+      - 🇺🇸US_1592+|11.96Mb
+      - +|14.56Mb_23
+      - +|19.51Mb_24
+      - +|14.95Mb_25
+      - 🇺🇸US_1620+|19.48Mb
+      - +|19.30Mb_27
+      - 🇧🇪BE_105+|10.13Mb
+      - 🇺🇸US_1598+|16.18Mb
+      - +|19.50Mb_30
+      - +|20.32Mb_31
+      - +|20.99Mb_32
+      - 🇧🇪BE_102+|19.29Mb
+      - +|13.76Mb_34
+      - +|11.89Mb_35
+      - 🇺🇸US_935+|12.29Mb
+      - +|19.78Mb_37
+      - +|19.52Mb_38
+      - +|20.38Mb_39
+      - +|23.36Mb_40
+      - +|14.93Mb_41
+      - 🇺🇸US_873+|11.99Mb
+      - +|18.70Mb_43
+      - +|10.78Mb_44
+      - 🇺🇸US_1200+|26.88Mb
+      - 🏁ZZ_1677+|20.69Mb
+      - +|14.88Mb_47
+      - +|11.91Mb_48
+      - +|21.90Mb_49
+      - +|15.45Mb_50
+      - +|+3.77Mb_51
+      - +|23.07Mb_52
+      - +|11.43Mb_53
+      - 🇺🇸US_1195+|21.41Mb
+      - 🇨🇦CA_209+|+9.86Mb
+      - +|+0.18Mb_56
+      - 🇨🇦CA_142+|+9.69Mb
+      - +|23.14Mb_58
+      - +|+7.10Mb_59
+      - 🇵🇱PL_577+|21.87Mb
+      - +|21.07Mb_61
+      - +|21.37Mb_62
+      - +|20.50Mb_63
+      - +|21.18Mb_64
+      - +|12.75Mb_65
+      - +|17.68Mb_66
+      - +|19.41Mb_67
+      - +|12.21Mb_68
+      - 🇨🇦CA_140+|12.16Mb
+      - 🇺🇸US_1039+|18.14Mb
+      - +|18.78Mb_71
+      - 🇺🇸US_1528+|13.80Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_+|100.79Mb_1
-      - Pool_+|78.08Mb_2
-      - +|21.90Mb_3
-      - +|19.78Mb_4
-      - +|23.14Mb_5
-      - +|23.36Mb_6
-      - +|14.88Mb_7
-      - +|23.97Mb_8
-      - +|26.52Mb_9
-      - +|19.15Mb_10
-      - +|23.07Mb_11
-      - +|21.00Mb_12
-      - +|20.55Mb_13
-      - +|17.91Mb_14
-      - +|12.97Mb_15
-      - +|21.07Mb_16
-      - +|12.95Mb_17
-      - +|12.31Mb_18
-      - +|13.86Mb_19
-      - +|14.56Mb_20
-      - +|19.94Mb_21
-      - +|11.76Mb_22
-      - +|12.39Mb_23
-      - +|20.96Mb_24
-      - +|+3.77Mb_25
-      - +|19.52Mb_26
-      - +|19.50Mb_27
-      - +|19.06Mb_28
-      - +|20.32Mb_29
-      - +|12.30Mb_30
-      - +|15.07Mb_31
-      - +|13.76Mb_32
-      - +|14.01Mb_33
-      - +|20.99Mb_34
-      - +|20.29Mb_35
-      - +|14.78Mb_36
-      - +|22.25Mb_37
-      - +|20.90Mb_38
-      - +|19.14Mb_39
-      - +|20.31Mb_40
-      - +|24.24Mb_41
-      - +|23.67Mb_42
-      - +|+5.61Mb_43
-      - +|12.23Mb_44
-      - Pool_+|20.39Mb_45
-      - +|18.70Mb_46
-      - +|20.92Mb_47
-      - +|17.76Mb_48
-      - +|15.45Mb_49
-      - +|11.43Mb_50
-      - +|11.89Mb_51
-      - +|11.91Mb_52
-      - +|+7.02Mb_53
-      - +|14.93Mb_54
-      - +|20.98Mb_55
-      - +|10.78Mb_56
-      - +|14.95Mb_57
-      - +|21.37Mb_58
-      - +|20.38Mb_59
-      - +|20.64Mb_60
-      - +|20.55Mb_61
-      - +|20.02Mb_62
-      - +|20.26Mb_63
-      - +|21.26Mb_64
-      - +|20.22Mb_65
-      - +|21.47Mb_66
-      - +|11.86Mb_67
-      - +|+0.46Mb_68
-      - 🏁ZZ_1925+|+2.50Mb
-      - +|19.30Mb_70
-      - +|20.50Mb_71
-      - +|+6.34Mb_72
-      - +|+0.18Mb_73
-      - +|+1.71Mb_74
-      - +|21.18Mb_75
-      - +|17.68Mb_76
-      - +|18.78Mb_77
-      - +|20.55Mb_78
-      - +|+7.10Mb_79
-      - +|13.31Mb_80
-      - 🇩🇪DE_281+|+3.06Mb
-      - +|13.64Mb_82
-      - +|11.35Mb_83
-      - +|11.62Mb_84
-      - +|25.78Mb_85
-      - +|19.79Mb_86
-      - +|20.31Mb_87
-      - +|20.58Mb_88
-      - +|+3.45Mb_89
-      - +|14.91Mb_90
-      - +|19.51Mb_91
-      - +|20.01Mb_92
-      - 🇨🇦CA_210+|14.88Mb
-      - +|19.41Mb_94
-      - +|21.24Mb_95
-      - +|12.21Mb_96
-      - +|12.75Mb_97
-      - +|22.44Mb_98
-      - +|18.92Mb_99
-      - +|16.06Mb_100
-      - +|10.50Mb_101
-      - +|+2.81Mb_102
-      - 🏁ZZ_1914+|+5.30Mb
+      - +|17.91Mb_1
+      - +|12.95Mb_2
+      - +|11.76Mb_3
+      - +|12.30Mb_4
+      - +|12.31Mb_5
+      - +|19.94Mb_6
+      - +|19.06Mb_7
+      - 🇺🇸US_1469+|18.63Mb
+      - +|13.86Mb_9
+      - 🇺🇸US_849+|20.31Mb
+      - +|12.97Mb_11
+      - +|20.31Mb_12
+      - 🇺🇸US_860+|21.20Mb
+      - 🇺🇸US_895+|12.88Mb
+      - 🇺🇸US_1594+|16.42Mb
+      - +|12.39Mb_16
+      - 🇺🇸US_939+|16.25Mb
+      - +|20.55Mb_18
+      - +|20.90Mb_19
+      - 🇺🇸US_866+|13.01Mb
+      - 🇺🇸US_868+|20.03Mb
+      - 🇺🇸US_1592+|11.96Mb
+      - +|14.56Mb_23
+      - +|19.51Mb_24
+      - +|14.95Mb_25
+      - 🇺🇸US_1620+|19.48Mb
+      - +|19.30Mb_27
+      - 🇧🇪BE_105+|10.13Mb
+      - 🇺🇸US_1598+|16.18Mb
+      - +|19.50Mb_30
+      - +|20.32Mb_31
+      - +|20.99Mb_32
+      - 🇧🇪BE_102+|19.29Mb
+      - +|13.76Mb_34
+      - +|11.89Mb_35
+      - 🇺🇸US_935+|12.29Mb
+      - +|19.78Mb_37
+      - +|19.52Mb_38
+      - +|20.38Mb_39
+      - +|23.36Mb_40
+      - +|14.93Mb_41
+      - 🇺🇸US_873+|11.99Mb
+      - +|18.70Mb_43
+      - +|10.78Mb_44
+      - 🇺🇸US_1200+|26.88Mb
+      - 🏁ZZ_1677+|20.69Mb
+      - +|14.88Mb_47
+      - +|11.91Mb_48
+      - +|21.90Mb_49
+      - +|15.45Mb_50
+      - +|+3.77Mb_51
+      - +|23.07Mb_52
+      - +|11.43Mb_53
+      - 🇺🇸US_1195+|21.41Mb
+      - 🇨🇦CA_209+|+9.86Mb
+      - +|+0.18Mb_56
+      - 🇨🇦CA_142+|+9.69Mb
+      - +|23.14Mb_58
+      - +|+7.10Mb_59
+      - 🇵🇱PL_577+|21.87Mb
+      - +|21.07Mb_61
+      - +|21.37Mb_62
+      - +|20.50Mb_63
+      - +|21.18Mb_64
+      - +|12.75Mb_65
+      - +|17.68Mb_66
+      - +|19.41Mb_67
+      - +|12.21Mb_68
+      - 🇨🇦CA_140+|12.16Mb
+      - 🇺🇸US_1039+|18.14Mb
+      - +|18.78Mb_71
+      - 🇺🇸US_1528+|13.80Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -882,109 +634,78 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_+|100.79Mb_1
-      - Pool_+|78.08Mb_2
-      - +|21.90Mb_3
-      - +|19.78Mb_4
-      - +|23.14Mb_5
-      - +|23.36Mb_6
-      - +|14.88Mb_7
-      - +|23.97Mb_8
-      - +|26.52Mb_9
-      - +|19.15Mb_10
-      - +|23.07Mb_11
-      - +|21.00Mb_12
-      - +|20.55Mb_13
-      - +|17.91Mb_14
-      - +|12.97Mb_15
-      - +|21.07Mb_16
-      - +|12.95Mb_17
-      - +|12.31Mb_18
-      - +|13.86Mb_19
-      - +|14.56Mb_20
-      - +|19.94Mb_21
-      - +|11.76Mb_22
-      - +|12.39Mb_23
-      - +|20.96Mb_24
-      - +|+3.77Mb_25
-      - +|19.52Mb_26
-      - +|19.50Mb_27
-      - +|19.06Mb_28
-      - +|20.32Mb_29
-      - +|12.30Mb_30
-      - +|15.07Mb_31
-      - +|13.76Mb_32
-      - +|14.01Mb_33
-      - +|20.99Mb_34
-      - +|20.29Mb_35
-      - +|14.78Mb_36
-      - +|22.25Mb_37
-      - +|20.90Mb_38
-      - +|19.14Mb_39
-      - +|20.31Mb_40
-      - +|24.24Mb_41
-      - +|23.67Mb_42
-      - +|+5.61Mb_43
-      - +|12.23Mb_44
-      - Pool_+|20.39Mb_45
-      - +|18.70Mb_46
-      - +|20.92Mb_47
-      - +|17.76Mb_48
-      - +|15.45Mb_49
-      - +|11.43Mb_50
-      - +|11.89Mb_51
-      - +|11.91Mb_52
-      - +|+7.02Mb_53
-      - +|14.93Mb_54
-      - +|20.98Mb_55
-      - +|10.78Mb_56
-      - +|14.95Mb_57
-      - +|21.37Mb_58
-      - +|20.38Mb_59
-      - +|20.64Mb_60
-      - +|20.55Mb_61
-      - +|20.02Mb_62
-      - +|20.26Mb_63
-      - +|21.26Mb_64
-      - +|20.22Mb_65
-      - +|21.47Mb_66
-      - +|11.86Mb_67
-      - +|+0.46Mb_68
-      - 🏁ZZ_1925+|+2.50Mb
-      - +|19.30Mb_70
-      - +|20.50Mb_71
-      - +|+6.34Mb_72
-      - +|+0.18Mb_73
-      - +|+1.71Mb_74
-      - +|21.18Mb_75
-      - +|17.68Mb_76
-      - +|18.78Mb_77
-      - +|20.55Mb_78
-      - +|+7.10Mb_79
-      - +|13.31Mb_80
-      - 🇩🇪DE_281+|+3.06Mb
-      - +|13.64Mb_82
-      - +|11.35Mb_83
-      - +|11.62Mb_84
-      - +|25.78Mb_85
-      - +|19.79Mb_86
-      - +|20.31Mb_87
-      - +|20.58Mb_88
-      - +|+3.45Mb_89
-      - +|14.91Mb_90
-      - +|19.51Mb_91
-      - +|20.01Mb_92
-      - 🇨🇦CA_210+|14.88Mb
-      - +|19.41Mb_94
-      - +|21.24Mb_95
-      - +|12.21Mb_96
-      - +|12.75Mb_97
-      - +|22.44Mb_98
-      - +|18.92Mb_99
-      - +|16.06Mb_100
-      - +|10.50Mb_101
-      - +|+2.81Mb_102
-      - 🏁ZZ_1914+|+5.30Mb
+      - +|17.91Mb_1
+      - +|12.95Mb_2
+      - +|11.76Mb_3
+      - +|12.30Mb_4
+      - +|12.31Mb_5
+      - +|19.94Mb_6
+      - +|19.06Mb_7
+      - 🇺🇸US_1469+|18.63Mb
+      - +|13.86Mb_9
+      - 🇺🇸US_849+|20.31Mb
+      - +|12.97Mb_11
+      - +|20.31Mb_12
+      - 🇺🇸US_860+|21.20Mb
+      - 🇺🇸US_895+|12.88Mb
+      - 🇺🇸US_1594+|16.42Mb
+      - +|12.39Mb_16
+      - 🇺🇸US_939+|16.25Mb
+      - +|20.55Mb_18
+      - +|20.90Mb_19
+      - 🇺🇸US_866+|13.01Mb
+      - 🇺🇸US_868+|20.03Mb
+      - 🇺🇸US_1592+|11.96Mb
+      - +|14.56Mb_23
+      - +|19.51Mb_24
+      - +|14.95Mb_25
+      - 🇺🇸US_1620+|19.48Mb
+      - +|19.30Mb_27
+      - 🇧🇪BE_105+|10.13Mb
+      - 🇺🇸US_1598+|16.18Mb
+      - +|19.50Mb_30
+      - +|20.32Mb_31
+      - +|20.99Mb_32
+      - 🇧🇪BE_102+|19.29Mb
+      - +|13.76Mb_34
+      - +|11.89Mb_35
+      - 🇺🇸US_935+|12.29Mb
+      - +|19.78Mb_37
+      - +|19.52Mb_38
+      - +|20.38Mb_39
+      - +|23.36Mb_40
+      - +|14.93Mb_41
+      - 🇺🇸US_873+|11.99Mb
+      - +|18.70Mb_43
+      - +|10.78Mb_44
+      - 🇺🇸US_1200+|26.88Mb
+      - 🏁ZZ_1677+|20.69Mb
+      - +|14.88Mb_47
+      - +|11.91Mb_48
+      - +|21.90Mb_49
+      - +|15.45Mb_50
+      - +|+3.77Mb_51
+      - +|23.07Mb_52
+      - +|11.43Mb_53
+      - 🇺🇸US_1195+|21.41Mb
+      - 🇨🇦CA_209+|+9.86Mb
+      - +|+0.18Mb_56
+      - 🇨🇦CA_142+|+9.69Mb
+      - +|23.14Mb_58
+      - +|+7.10Mb_59
+      - 🇵🇱PL_577+|21.87Mb
+      - +|21.07Mb_61
+      - +|21.37Mb_62
+      - +|20.50Mb_63
+      - +|21.18Mb_64
+      - +|12.75Mb_65
+      - +|17.68Mb_66
+      - +|19.41Mb_67
+      - +|12.21Mb_68
+      - 🇨🇦CA_140+|12.16Mb
+      - 🇺🇸US_1039+|18.14Mb
+      - +|18.78Mb_71
+      - 🇺🇸US_1528+|13.80Mb
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
